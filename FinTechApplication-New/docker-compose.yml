@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  eureka-server:
+    build:
+      context: ./discovery-server
+    ports:
+      - "8761:8761"
+    environment:
+      - spring.profiles.active=peer1
+
+  account-service:
+    build:
+      context: ./account-service
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+      - eureka-server
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/account-service
+      - SPRING_APPLICATION_NAME=account-service
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: transaction-service
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+
+  transaction-service:
+    build:
+      context: ./transaction-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+      - eureka-server
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/transaction-service
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=123
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=create-drop
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+volumes:
+  mongodb_data:

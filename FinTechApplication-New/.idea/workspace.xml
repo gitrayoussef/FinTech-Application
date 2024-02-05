@@ -4,86 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656ef7d0-a434-407a-b46d-953c2c1217bb" name="Changes" comment="" />
+    <list default="true" id="bcb7d6d2-432f-4665-b9ae-ba0f67f6249f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Dockerfile" />
-      </list>
-    </option>
-  </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2bdqHQCipe7h1ksx9VFqx3foYr3" />
+  <component name="ProjectId" id="2bdt2CUVLW3UhhXcj76STemZ2LI" />
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "JUnit.AccountServiceApplicationTests.executor": "Run",
-    "JUnit.AccountServiceApplicationTests.openAccount_shouldReturnCreatedStatus.executor": "Run",
-    "Maven.FinTechApplication-New [clean,install].executor": "Run",
-    "Maven.FinTechApplication-New [clean,verify].executor": "Run",
-    "Maven.FinTechApplication-New [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AccountServiceApplication (1).executor": "Debug",
-    "Spring Boot.AccountServiceApplication.executor": "Run",
-    "Spring Boot.DiscoveryServerApplication.executor": "Run",
-    "Spring Boot.TransactionServiceApplication.executor": "Run",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/AxisTask/FinTechApplication-New/FinTechApplication-New/transaction-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AxisTask/FinTechApplication-New/FinTechApplication-New/transaction-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AxisTask\FinTechApplication-New\FinTechApplication-New\transaction-service" />
-      <recent name="D:\AxisTask\FinTechApplication-New\FinTechApplication-New\account-service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.axis.transactionservice.dto" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean verify" />
-      <command value="mvn clean" />
-      <command value="mvn clean install" />
-    </option>
-  </component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -93,25 +55,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
-    <configuration name="AccountServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+    <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.axis.accountservice.AccountServiceApplication" />
       <module name="account-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.axis.accountservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.axis.accountservice" />
-      <option name="MAIN_CLASS_NAME" value="com.axis.accountservice.AccountServiceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="account-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axis.accountservice.AccountServiceApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.axis.accountservice.*" />
@@ -135,55 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.finTechApplicationNew.discoveryServer.DiscoveryServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.finTechApplicationNew.discoveryServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="transaction-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.axis.transactionservice.TransactionServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.axis.transactionservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="JUnit.AccountServiceApplicationTests" />
-      <item itemvalue="Spring Boot.AccountServiceApplication (1)" />
-      <item itemvalue="Spring Boot.AccountServiceApplication" />
-      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-      <item itemvalue="Spring Boot.TransactionServiceApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="JUnit.AccountServiceApplicationTests" />
-        <item itemvalue="Spring Boot.AccountServiceApplication" />
-        <item itemvalue="Spring Boot.TransactionServiceApplication" />
-        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+        <item itemvalue="Application.AccountServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -197,40 +112,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="656ef7d0-a434-407a-b46d-953c2c1217bb" name="Changes" comment="" />
-      <created>1706555217927</created>
+      <changelist id="bcb7d6d2-432f-4665-b9ae-ba0f67f6249f" name="Changes" comment="" />
+      <created>1706556574516</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706555217927</updated>
-      <workItem from="1706555219349" duration="16330000" />
-      <workItem from="1706571580573" duration="10428000" />
-      <workItem from="1706598925576" duration="606000" />
-      <workItem from="1706601286756" duration="330000" />
-      <workItem from="1706608592246" duration="71000" />
-      <workItem from="1706611698949" duration="316000" />
-      <workItem from="1706612061698" duration="87000" />
-      <workItem from="1706619543019" duration="1162000" />
-      <workItem from="1706640800816" duration="4120000" />
-      <workItem from="1706644942882" duration="19837000" />
+      <updated>1706556574516</updated>
+      <workItem from="1706664891881" duration="1472000" />
+      <workItem from="1706666563882" duration="55000" />
+      <workItem from="1707040430819" duration="27000" />
+      <workItem from="1707048043457" duration="304000" />
+      <workItem from="1707048360751" duration="329000" />
+      <workItem from="1707158790854" duration="1749000" />
+      <workItem from="1707161748091" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint type="java-exception">
-          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/axis/accountservice/controller/AccountController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

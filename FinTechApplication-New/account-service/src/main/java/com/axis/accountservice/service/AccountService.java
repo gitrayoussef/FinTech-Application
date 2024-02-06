@@ -27,14 +27,14 @@ public class AccountService {
         return AccountResponse.builder().id(account.getId()).build();
     }
 
-    public AccountResponse checkBalance(String id) {
-        Optional<Account> account = accountRepository.findById(id);
+    public AccountResponse checkBalance(String accountId) {
+        Optional<Account> account = accountRepository.findById(accountId);
         return account.map(acc -> AccountResponse.builder().balance(acc.getBalance()).build())
                 .orElseThrow(() -> new IllegalArgumentException("Account doesn't exist. Please open an account and try again later."));
     }
 
-    public boolean checkAccountExistence(String id) {
-        boolean found = accountRepository.findById(id).isPresent();
+    public boolean checkAccountExistence(String accountId) {
+        boolean found = accountRepository.findById(accountId).isPresent();
         if (!found) {
             throw new IllegalArgumentException("Account doesn't exist. Please open an account and try again later.");
         }

@@ -30,22 +30,9 @@ public class AccountController {
         }
     }
 
-    @GetMapping("{accountId}/balance")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Object> checkBalance(@PathVariable String accountId) {
-        try {
-            double balance = accountService.checkBalance(accountId).getBalance();
-            return ResponseEntity.status(HttpStatus.OK).body(balance);
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error checking balance: " + e.getMessage());
-        }
-    }
-
     @GetMapping("{accountId}")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Object> checkAccountExistence(@PathVariable String accountId) {
+    public ResponseEntity<Object> checkAccountExistence(@PathVariable("accountId") String accountId) {
         try {
             boolean exists = accountService.checkAccountExistence(accountId);
             return ResponseEntity.status(HttpStatus.OK).body(exists);
@@ -53,6 +40,19 @@ public class AccountController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error checking account existence: " + e.getMessage());
+        }
+    }
+
+    @GetMapping("{accountId}/balance")
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<Object> checkBalance(@PathVariable("accountId") String accountId) {
+        try {
+            double balance = accountService.checkBalance(accountId).getBalance();
+            return ResponseEntity.status(HttpStatus.OK).body(balance);
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error checking balance: " + e.getMessage());
         }
     }
 
